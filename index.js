@@ -1,4 +1,4 @@
-var PayslipService = require('./payslip-service');
+var PayslipService = require('./payslip/payslip-service');
 var csvParse = require('csv-parse');
 var payslipService = new PayslipService();
 var fs = require('fs');

@@ -1,7 +1,7 @@
 var expect = require("chai").expect;
 
-var PayslipService = require('../payslip-service');
-var MonthlyPayslip = require('../monthly-payslip');
+var PayslipService = require('../payslip/payslip-service');
+var MonthlyPayslip = require('../payslip/monthly-payslip');
 
 describe('PayslipService', () => {
     var payslipService = new PayslipService();
